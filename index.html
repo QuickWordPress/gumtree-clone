@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Classifieds Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Simple Classifieds Marketplace</h1>
+        <input type="text" id="search-bar" placeholder="Search by title..." />
+    </header>
+    <nav>
+        <button class="filter-button" data-category="all">All</button>
+        <button class="filter-button" data-category="furniture">Furniture</button>
+        <button class="filter-button" data-category="electronics">Electronics</button>
+        <button class="filter-button" data-category="jobs">Jobs</button>
+    </nav>
+    <main id="listings-grid">
+        <!-- Listings dynamically populated here -->
+    </main>
+    <footer>
+        <a href="add-listing.html">Add New Listing</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
